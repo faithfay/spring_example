@@ -4,6 +4,13 @@ public class Address {
 
     private String city;
 
+    @Override
+    public String toString() {
+        return "Address{" +
+                "city='" + city + '\'' +
+                '}';
+    }
+
     public String getCity() {
         return city;
     }
